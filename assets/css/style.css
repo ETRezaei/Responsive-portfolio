@@ -15,7 +15,7 @@ body{
 }
 
 
-#wrapper{
+.wrapper{
 
     background: #1de9b6;
     position: relative;
@@ -226,7 +226,9 @@ input{
         height:100px;
         padding-top: 10px;
     }
-
+    /* #wrapper-portforio{
+        height: 50% !important;
+    } */
     .ul{
         list-style-type:none;
         right: -40px;
@@ -260,11 +262,11 @@ input{
         padding:20px;
         position: relative;
         margin: 20px auto;
-        width: 100%;
+        width: 85%;
         height: auto !important;
         min-height: 100%;
-        padding-bottom: 0;
-        margin-bottom: 0px !important;
+        /* padding-bottom: 0; */
+        /* margin-bottom: 0px !important; */
     }
 
     #main-feature-contact{
@@ -353,11 +355,14 @@ input{
         padding:20px;
         position: relative;
         margin: 10px auto;
-        width: auto;
+        width: 85%;
         height: auto !important;
         min-height: 100%;
         padding-bottom: 50px;
+        max-width: 480px;
         margin-bottom: 100px !important;
+
+        
     }
 
     #main-feature-contact{
@@ -366,12 +371,12 @@ input{
         background: #e0f7fa;
         padding:20px;
         position: relative;
-        margin: 20px auto;
-        width: auto;
+        margin: 15px;
+        width: 85%;
         height: auto !important;
         min-height: 100%;
         padding-bottom: 40px;
-        margin-bottom: 0px !important;
+        margin-bottom: 100px !important;
     }
     input{
         width: auto;
